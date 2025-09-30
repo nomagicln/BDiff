@@ -32,10 +32,31 @@ BDiff is a browser-based file differencing tool that can identify precise differ
 - **Include Updates in Copies**: Detect line updates within copied blocks.
 - **Include Lines with Only Stop Words in Moved Block Size Calculation**: Whether to count lines containing only stop words when calculating the size of moved blocks.
 - **Include Lines with Only Stop Words in Copied Block Size Calculation**: Whether to count lines containing only stop words when calculating the size of copied blocks.
-## 3. 🚩 Real-world Cases
+## 3. 🚩 Typical Real-world Cases
 ### 3.1 Changing the order of parameter and member variable assignments
 kitao/pyxel, 3861523a200da507f36edf478729f4ec7c269775, app.py
 ![](http://test.bdiff.net/public/pyxel-3861523a200da507f36edf478729f4ec7c269775-app.py.png)
 ### 3.2 Moving the try statement block
 psf/requests, cde3b88f3e93a9503810acc0ded890025fcbc119, core.py
-![]{http://test.bdiff.net/public/requests-cde3b88f3e93a9503810acc0ded890025fcbc119-core.py.png}
+![](http://test.bdiff.net/public/requests-cde3b88f3e93a9503810acc0ded890025fcbc119-core.py.png)
+### 3.3 Adding conditional judgment
+ansible/ansible, 3807824c6d0dae63b9f36dbafe8e100b0a3beaa6, __init__.py
+![](http://test.bdiff.net/public/ansible-3807824c6d0dae63b9f36dbafe8e100b0a3beaa6-__init__.py.png)
+### 3.4 Reusing interface elements
+topjohnwu/Magisk, fc5c9647d829cad1b73338e42164decc4ab08a54, drawer.xml
+![](http://test.bdiff.net/public/magisk-fc5c9647d829cad1b73338e42164decc4ab08a54-drawer.xml.png)
+### 3.5 Copying function implementation
+keras-team/keras, aa7f9cdae951bba824883cfa392224a292b284b, core.py
+![](http://test.bdiff.net/public/keras-aa7f9cdae951bba824883cfa392224a292b284bb-core.py.png)
+### 3.6 Reuse test functions
+psf/black, e911c79809c4fd9b0773dea5b6a0e710b59614cf, test_black.py
+![](http://test.bdiff.net/public/black-e911c79809c4fd9b0773dea5b6a0e710b59614cf-test_black.py.png)
+### 3.7 Line splits and block moves
+wagtail/wagtail, a2a580f0fe7a1354a109eb062b5393fbb330f508, urls.py
+![](http://test.bdiff.net/public/home-assitant-a2a580f0fe7a1354a109eb062b5393fbb330f508-urls.py.png)
+### 3.8 Block copies and block moves
+square/okhttp, c8638813ff5f90715417e489b342aae5e410c5b2, pom.xml
+![](http://test.bdiff.net/public/okhttp-c8638813ff5f90715417e489b342aae5e410c5b2-pom.xml.png)
+### 3.9 Converting spaces to indentation
+scikit-learn/scikit-learn, 612312553118371289330f50b38653d1206246c0, gene.py
+![](http://test.bdiff.net/public/scikit-learn-612312553118371289330f50b38653d1206246c0-gene.py.png)
