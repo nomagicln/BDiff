@@ -1,4 +1,4 @@
-<font color="#013888">Are you still struggling with reading such differencing results? Now try BDiff!</font>
+Are you still struggling with reading such differencing results? **Now try BDiff!**
 <img width="3281" height="941" alt="image" src="https://github.com/user-attachments/assets/e7d2dc5e-90bd-400f-8a3f-8ef8fbc4cf83" />
 
 BDiff is a browser-based file differencing tool that can identify precise differences between text files and generate corresponding edit scripts. It can be applied in scenarios such as code review and change analysis.
@@ -54,7 +54,7 @@ keras-team/keras, aa7f9cdae951bba824883cfa392224a292b284b, core.py
 ### 3.6 Reuse test functions
 psf/black, e911c79809c4fd9b0773dea5b6a0e710b59614cf, test_black.py
 ![](http://test.bdiff.net/public/black-e911c79809c4fd9b0773dea5b6a0e710b59614cf-test_black.py.png)
-### 3.7 Line splits and block moves
+### 3.7 Line splits and block moves (Correponds to the example at the beginning of this file)
 wagtail/wagtail, a2a580f0fe7a1354a109eb062b5393fbb330f508, urls.py
 ![](http://test.bdiff.net/public/home-assitant-a2a580f0fe7a1354a109eb062b5393fbb330f508-urls.py.png)
 ### 3.8 Block copies and block moves
