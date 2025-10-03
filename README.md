@@ -3,9 +3,10 @@
 Are you still struggling with reading such differencing results? **Now try** [**BDiff!**](http://www.bdiff.net/): 
 ![home-assitant_a2a580f0fe7a1354a109eb062b5393fbb330f508-urls](https://github.com/user-attachments/assets/d91a5adc-93e0-490b-a8c1-9d3c63824e82)  
 
-BDiff is a browser-based file differencing tool that can identify precise differences between text files and generate corresponding edit scripts. It can be applied in scenarios such as code review and change analysis. The backend builds on a text-based differencing algorithm and are thus **language-independent**.
+BDiff is a text-based differencing algorithm that can identify accurate line-level and block-level differences between text files and generate corresponding edit scripts. It can be applied in scenarios such as code review and change analysis.
 
 ## I. 🎻 Main Features
+- **Language-independent**: BDiff is a text-based differencing algorithm and can thus be applied to code written in any programming language.
 - **Comprehensive Difference Identification**: It can identify line deletions, line additions, line updates, line splits, line merges, block copies (including line updates), and block moves (including line updates).
 - **Generate Edit Scripts**: Produces edit scripts based on the identified differences.
 - **Display Updated Difference Substrings**: Shows the specific substrings that have been updated.
