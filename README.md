@@ -3,6 +3,7 @@
 Are you still struggling with reading such differencing results? **Now try** [**BDiff!**](http://www.bdiff.net/): 
 ![home-assitant_a2a580f0fe7a1354a109eb062b5393fbb330f508-urls](https://github.com/user-attachments/assets/d91a5adc-93e0-490b-a8c1-9d3c63824e82)  
 
+## 🔆 Overview
 BDiff is a text-based differencing algorithm that can identify accurate line-level and block-level differences between text files and generate corresponding edit scripts. It can be applied in scenarios such as code review and change analysis.
 
 ## I. 🎻 Main Features
@@ -57,7 +58,7 @@ keras-team/keras, aa7f9cdae951bba824883cfa392224a292b284b, core.py
 ### 3.6 Reuse test functions
 psf/black, e911c79809c4fd9b0773dea5b6a0e710b59614cf, test_black.py
 ![](http://test.bdiff.net/public/black-e911c79809c4fd9b0773dea5b6a0e710b59614cf-test_black.py.png)
-### 3.7 Line splits and block moves (Correponds to the example at the beginning of this file)
+### 3.7 Line splits and block moves (Corresponds to the example at the beginning of this file)
 wagtail/wagtail, a2a580f0fe7a1354a109eb062b5393fbb330f508, urls.py
 ![](http://test.bdiff.net/public/home-assitant-a2a580f0fe7a1354a109eb062b5393fbb330f508-urls.py.png)
 ### 3.8 Block copies and block moves
@@ -71,7 +72,7 @@ We welcome contributions through the following methods:
 1. Submit an Issue to report problems or suggest improvements.
 2. Fork the repository and submit a Pull Request.
 3. Participate in discussions about the project.
-## 5. License
+## 5. 📃 License
 This software is licensed under [Mulan Public License，Version 2](http://openworks.mulanos.cn/#/licenses/MulanPubL-v2) (Mulan PubL v2).
 ```
 Copyright (c) [2025] [National University of Defense Technology]
