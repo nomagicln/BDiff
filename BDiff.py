@@ -1,3 +1,15 @@
+```
+Copyright (c) [2025] [Lu YAO]
+BDiff is licensed under Mulan PubL v2.
+You can use this software according to the terms and conditions of the Mulan PubL v2.
+You may obtain a copy of Mulan PubL v2 at:
+         http://openworks.mulanos.cn/#/licenses/MulanPubL-v2
+THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+See the Mulan PubL v2 for more details.
+```
+                     
 import copy
 import os
 import re
@@ -2253,4 +2265,5 @@ def BDiffFile(src: str, dest: str) -> None:
     dest_lines_list = dest_infile.read().splitlines()
     src_infile.close()
     dest_infile.close()
+
     pprint(BDiff(src, dest, src_lines_list, dest_lines_list))
