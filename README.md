@@ -55,10 +55,10 @@ topjohnwu/Magisk, fc5c9647d829cad1b73338e42164decc4ab08a54, drawer.xml
 ### 3.5 Copying function implementation
 keras-team/keras, aa7f9cdae951bba824883cfa392224a292b284b, core.py
 ![](http://test.bdiff.net/public/keras-aa7f9cdae951bba824883cfa392224a292b284bb-core.py.png)
-### 3.6 Reuse test functions
+### 3.6 Reusing test functions
 psf/black, e911c79809c4fd9b0773dea5b6a0e710b59614cf, test_black.py
 ![](http://test.bdiff.net/public/black-e911c79809c4fd9b0773dea5b6a0e710b59614cf-test_black.py.png)
-### 3.7 Line splits and block moves (Corresponds to the example at the beginning of this file)
+### 3.7 Line splitting and block moving (Corresponds to the example at the beginning of this file)
 wagtail/wagtail, a2a580f0fe7a1354a109eb062b5393fbb330f508, urls.py
 ![](http://test.bdiff.net/public/home-assitant-a2a580f0fe7a1354a109eb062b5393fbb330f508-urls.py.png)
 ### 3.8 Block copies and block moves
