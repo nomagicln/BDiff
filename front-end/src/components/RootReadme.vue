@@ -155,7 +155,7 @@ const CLASSIC_CASES = [
   },
   {
     title: "Line splits and block moves",
-    repo: "home-assitant",
+    repo: "wagtail",
     sha: "a2a580f0fe7a1354a109eb062b5393fbb330f508",
     filename: "urls.py",
   },
