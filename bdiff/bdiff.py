@@ -14,7 +14,6 @@ from __future__ import annotations as _
 
 import copy
 import os
-import pprint
 import re
 import subprocess
 from collections import OrderedDict
@@ -738,7 +737,7 @@ def km_compute(
     km_start = 0
     km_end = 0
 
-    for index, mapping in enumerate(mappings):
+    for mapping in mappings:
         # state: a: assigned, d: deleted, None: waiting for assigned, s: sliced
         mapping['state'] = None
         found_src_mapping = False
@@ -762,7 +761,7 @@ def km_compute(
             km_start += 1
 
     mappings.sort(key=lambda x: x["added_start"])
-    for index, mapping in enumerate(mappings):
+    for mapping in mappings:
         found_added_mapping = False
 
         for group_added in grouped_mappings_added:
@@ -2119,9 +2118,9 @@ def bdiff(
                     - "edit_action": Human-readable description of the operation (e.g., "Move 3-line block from line 5 to line 12")
                     - Additional mode-specific fields (e.g., "indent_offset" for indent changes, "updates" for line edits in blocks)
     """
-    with open(src, 'r') as left_infile:
+    with open(src, 'r', encoding="utf8") as left_infile:
         src_lines_list = left_infile.readlines()
-    with open(dest, 'r') as right_infile:
+    with open(dest, 'r', encoding="utf8") as right_infile:
         dest_lines_list = right_infile.readlines()
     env = os.environ.copy()
     env["PATH"] = "/usr/bin:" + env["PATH"]

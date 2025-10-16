@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d09e99d-67e5-4d19-91de-2ff50f6e6253" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/bdiff/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdiff/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bdiff/test_bdiff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/edit_scripts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/left_files/1-move-split-before.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/left_files/2-move-copy-before.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/left_files/3-copy-before.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/left_files/4-move-copy-before.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/right_files/1-move-split-after.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/right_files/2-move-copy-after.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/right_files/3-copy-after.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diff-cases/right_files/4-move-copy-after.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdiff/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bdiff/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdiff/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bdiff/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bdiff/bdiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/bdiff/bdiff.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +39,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for bdiff.test_bdiff.test_bdiff.executor": "Run",
     "Python tests.Python tests in test_bdiff.py.executor": "Run",
-    "Python.bdiff.executor": "Debug",
+    "Python.bdiff.executor": "Run",
     "Python.demo.executor": "Run",
     "Python.tbdiff (1).executor": "Debug",
     "Python.test_bdiff.executor": "Run",
@@ -83,7 +69,7 @@
       <recent name="D:\git-repos\BDiff\diff-cases\left_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for bdiff.test_bdiff.test_bdiff">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="bdiff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BDiff" />
       <option name="ENV_FILES" value="" />
@@ -197,9 +183,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for bdiff.test_bdiff.test_bdiff" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.bdiff" />
+        <item itemvalue="Python tests.Python tests for bdiff.test_bdiff.test_bdiff" />
         <item itemvalue="Python.test_bdiff" />
         <item itemvalue="Python tests.Python tests in test_bdiff.py" />
       </list>
@@ -235,6 +221,16 @@
           <url>file://$PROJECT_DIR$/bdiff/test_bdiff.py</url>
           <line>11</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bdiff/bdiff.py</url>
+          <line>742</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bdiff/bdiff.py</url>
+          <line>2127</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
