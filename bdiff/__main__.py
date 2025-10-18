@@ -174,4 +174,4 @@ _parser.add_argument(
 
 
 if __name__ == "__main__":
-    bdiff.BDiffFile(**vars(_parser.parse_args()))
+    bdiff.bdiff(**vars(_parser.parse_args()))
