@@ -253,24 +253,16 @@ const showCasePreviewIndex = ref<number>(0);
         </div>
       </template>
     </el-image-viewer>
-    <h4 v-html="$t('readme.heading_one.4') + $t('readme.chapter_contributors.title')"></h4>
-    <div v-html="$t('readme.chapter_contributors.content')"></div>
+    <h4 v-html="$t('readme.heading_one.4') + $t('readme.chapter_open_source_project.title')"></h4>
+    <div v-html="$t('readme.chapter_open_source_project.content')"></div>
     <h4 v-html="$t('readme.heading_one.5') + $t('readme.chapter_contribution.title')"></h4>
     <div v-html="$t('readme.chapter_contribution.content')"></div>
     <h4 v-html="$t('readme.heading_one.6') + $t('readme.chapter_licenses.title')"></h4>
     <div v-html="$t('readme.chapter_licenses.content')"></div>
-    <div class="bg-light">
-      <pre class="p-3"><code>Copyright (c) [2025] [Lu YAO]
-BDiff is licensed under Mulan PubL v2.
-You can use this software according to the terms and conditions of the Mulan PubL v2.
-You may obtain a copy of Mulan PubL v2 at:
-         http://openworks.org.cn/#/licenses/MulanPubL-v2
-THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
-EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
-MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
-See the Mulan PubL v2 for more details.
-</code></pre>
-    </div>
+    <h4 v-html="$t('readme.heading_one.7') + $t('readme.chapter_contributors.title')"></h4>
+    <div v-html="$t('readme.chapter_contributors.content')"></div>
+    <h4 v-html="$t('readme.heading_one.8') + $t('readme.chapter_papers.title')"></h4>
+    <div v-html="$t('readme.chapter_papers.content')"></div>
   </div>
 
   <div

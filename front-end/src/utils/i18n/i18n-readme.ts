@@ -88,6 +88,36 @@ export const I18N_MESSAGES_README = {
         `<li>Programming Language Highlighting: Syntax-aware highlighting for major programming languages.</li>` +
         `</ul>`,
     },
+    chapter_open_source_project: {
+      title: `🙆‍♂️ Open Source Project`,
+      content:
+        `<p>BDiff is open-source, with a GitHub App and Git plugin implemented. Welcome to use it and give it a star :)</p>` +
+        `<ul>` +
+        `<li>GitHub project address: <a href="https://github.com/BDiff/BDiff" target="_blank">https://github.com/BDiff/BDiff</a></li>` +
+        `<li>GitHub App address: <a href="https://github.com/marketplace/bdiff" target="_blank">https://github.com/marketplace/bdiff</a></li>` +
+        `<li>Git plugin project address: <a href="https://github.com/marketplace/bdiff" target="_blank">https://github.com/marketplace/bdiff</a></li>` +
+        `<li>BDiff visualization result exporter project address: <a href="https://github.com/BDiff/BDiff-Visualization-Exporter" target="_blank">https://github.com/BDiff/BDiff-Visualization-Exporter</a></li>` +
+        `</ul>`,
+    },
+    chapter_papers: {
+      title: `📄 Research Paper`,
+      content:
+        `<p>Our research paper (<a href="https://arxiv.org/abs/2510.21094" target="_blank">https://arxiv.org/abs/2510.21094</a>) provides a detailed description of BDiff's implementation and evaluation. We welcome you to cite it and engage in academic exchanges :)</p>` +
+        `<p>Paper citation:</p>` +
+        `<div class="bg-light">` +
+        `<pre class="p-3">` +
+        `<code>&#64;misc&#123;lu2025bdiffblockawareaccuratetextbased,
+      title=&#123;BDiff: Block-aware and Accurate Text-based Code Differencing&#125;,
+      author=&#123;Yao Lu and Wanwei Liu and Tanghaoran Zhang and Kang Yang and Yang Zhang and Wenyu Xu and Longfei Sun and Xinjun Mao and Shuzheng Gao and Michael R. Lyu&#125;,
+      year=&#123;2025&#125;,
+      eprint=&#123;2510.21094&#125;,
+      archivePrefix=&#123;arXiv&#125;,
+      primaryClass=&#123;cs.SE&#125;,
+      url=&#123;https://arxiv.org/abs/2510.21094&#125;,
+&#125;</code>` +
+        `</pre>` +
+        `</div>`,
+    },
     commit: "commit",
     desc: `BDiff is a browser-based file differencing tool that can identify precise differences between text files and generate corresponding edit scripts. It can be applied in scenarios such as code review and change analysis.`,
     filename: "filename",
@@ -98,6 +128,9 @@ export const I18N_MESSAGES_README = {
       4: `4. `,
       5: `5. `,
       6: `6. `,
+      7: `7. `,
+      8: `8. `,
+      9: `9. `,
     },
     repo: "repo",
   },
@@ -119,7 +152,7 @@ export const I18N_MESSAGES_README = {
     chapter_contribution: {
       title: `🎯贡献指南`,
       content:
-        `<p>欢迎通过以下方式参与开发：</p>` +
+        `<p>欢迎小伙伴们通过以下方式参与开发：</p>` +
         `<ol>` +
         `<li>提交Issue报告问题或建议</li>` +
         `<li>Fork仓库并提交Pull Request</li>` +
@@ -165,7 +198,21 @@ export const I18N_MESSAGES_README = {
     },
     chapter_licenses: {
       title: `📋许可证`,
-      content: `本软件依据 <a href="http://openworks.org.cn/#/licenses/MulanPubL-v2">木兰公共许可证第二版</a>（Mulan PubL v2）进行授权许可。`,
+      content:
+        `<p>BDiff使用<a href="http://openworks.mulanos.cn/#/licenses/MulanPubL-v2" target="_blank">木兰公共许可证 v2</a>开源：</p>` +
+        `<div class="bg-light">` +
+        `<pre class="p-3">` +
+        `<code>Copyright (c) [2025] [Lu YAO]
+BDiff is licensed under Mulan PubL v2.
+You can use this software according to the terms and conditions of the Mulan PubL v2.
+You may obtain a copy of Mulan PubL v2 at:
+         http://openworks.mulanos.cn/#/licenses/MulanPubL-v2
+THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+See the Mulan PubL v2 for more details.</code>` +
+        `</pre>` +
+        `</div>`,
     },
     chapter_major_function: {
       title: `🎻主要功能`,
@@ -192,6 +239,36 @@ export const I18N_MESSAGES_README = {
         `<li>高亮显示主流编程语言</li>` +
         `</ul>`,
     },
+    chapter_open_source_project: {
+      title: `🙆‍♂️开源项目`,
+      content:
+        `<p>BDiff完全开源，并实现了GitHub App和GIt插件，欢迎小伙伴们使用点赞：）</p>` +
+        `<ul>` +
+        `<li>GitHub项目地址：<a href="https://github.com/BDiff/BDiff" target="_blank">https://github.com/BDiff/BDiff</a></li>` +
+        `<li>GitHub App地址：<a href="https://github.com/marketplace/bdiff" target="_blank">https://github.com/marketplace/bdiff</a></li>` +
+        `<li>Git 插件项目地址：<a href="https://github.com/marketplace/bdiff" target="_blank">https://github.com/marketplace/bdiff</a></li>` +
+        `<li>BDiff可视化结果导出工具项目地址：<a href="https://github.com/BDiff/BDiff-Visualization-Exporter" target="_blank">https://github.com/BDiff/BDiff-Visualization-Exporter</a></li>` +
+        `</ul>`,
+    },
+    chapter_papers: {
+      title: `📄研究论文`,
+      content:
+        `<p>我们的研究论文（<a href="https://arxiv.org/abs/2510.21094" target="_blank">https://arxiv.org/abs/2510.21094</a>）对BDiff的实现和评估做了详细描述，欢迎小伙伴们引用、交流：）</p>` +
+        `<p>Bibtex引用：</p>` +
+        `<div class="bg-light">` +
+        `<pre class="p-3">` +
+        `<code>&#64;misc&#123;lu2025bdiffblockawareaccuratetextbased,
+      title=&#123;BDiff: Block-aware and Accurate Text-based Code Differencing&#125;,
+      author=&#123;Yao Lu and Wanwei Liu and Tanghaoran Zhang and Kang Yang and Yang Zhang and Wenyu Xu and Longfei Sun and Xinjun Mao and Shuzheng Gao and Michael R. Lyu&#125;,
+      year=&#123;2025&#125;,
+      eprint=&#123;2510.21094&#125;,
+      archivePrefix=&#123;arXiv&#125;,
+      primaryClass=&#123;cs.SE&#125;,
+      url=&#123;https://arxiv.org/abs/2510.21094&#125;,
+&#125;</code>` +
+        `</pre>` +
+        `</div>`,
+    },
     commit: "提交",
     desc: `BDiff 是一个基于浏览器的文本差异分析工具，<strong>可识别文本文件的精确差异，并生成对应的编辑脚本</strong>，可用于代码审查、变更分析等场景。`,
     filename: "文件",
@@ -202,6 +279,9 @@ export const I18N_MESSAGES_README = {
       4: `四、`,
       5: `五、`,
       6: `六、`,
+      7: `七、`,
+      8: `八、`,
+      9: `九、`,
     },
     repo: "项目",
   },
