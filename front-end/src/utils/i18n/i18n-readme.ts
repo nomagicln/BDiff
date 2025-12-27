@@ -70,7 +70,21 @@ export const I18N_MESSAGES_README = {
     },
     chapter_licenses: {
       title: `📋 License`,
-      content: `<p>This software is licensed under <a href="http://openworks.org.cn/#/licenses/MulanPubL-v2">Mulan Public License，Version 2</a> (Mulan PubL v2).</p>`,
+      content:
+        `<p>This software is licensed under <a href="http://openworks.org.cn/#/licenses/MulanPubL-v2">Mulan Public License，Version 2</a> (Mulan PubL v2).</p>` +
+        `<div class="bg-light">` +
+        `<pre class="p-3">` +
+        `<code>Copyright (c) [2025] [Lu YAO]
+BDiff is licensed under Mulan PubL v2.
+You can use this software according to the terms and conditions of the Mulan PubL v2.
+You may obtain a copy of Mulan PubL v2 at:
+         http://openworks.mulanos.cn/#/licenses/MulanPubL-v2
+THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT,
+MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+See the Mulan PubL v2 for more details.</code>` +
+        `</pre>` +
+        `</div>`,
     },
     chapter_major_function: {
       title: `🎻 Main Features`,
